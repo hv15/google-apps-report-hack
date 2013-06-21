@@ -14,5 +14,5 @@ var div = document.getElementsByClassName(selector);
 if(div.length == 1){
 	div.item(0).style.overflow = 'scroll';
 } else {
-	console.log('UserScript failed, there are more then one elements that reference class GGLYHMPCIBC');
+	console.log('UserScript failed, there are more then one elements that reference class ' + selector);
 }
