@@ -3,9 +3,9 @@
 // @namespace	https://github.com/hv15/google-apps-report-hack
 // @description	This solves (hackishly) the Google Apps problem relating to the reports not being fully shown by alterting some CSS.
 // @match	https://www.google.com/a/cpanel/*/AdminHome#Reports/subtab=emaillogs
-// @include	/^https:\/\/www\.google\.com\/a\/cpanel\/.*\/AdminHome#Reports\/subtab=emaillogs$/
+// @include	/^https://www\.google\.com/a/cpanel/.+/AdminHome#Reports/subtab=emaillogs$/
 // @grant	none
-// @version	1.2
+// @version	1.3
 // ==/UserScript==
 
 var selector = 'GLGLAIEIBC';
